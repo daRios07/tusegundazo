@@ -1,6 +1,6 @@
 export class Vehiculo {
   id: number;
-  name: string;
+  marca: string;
   linea: string;
   referencia: string;
   modelo: number;
@@ -10,7 +10,7 @@ export class Vehiculo {
 
 constructor(
   id: number,
-  name: string,
+  marca: string,
   linea: string,
   referencia: string,
   modelo: number,
@@ -18,7 +18,7 @@ constructor(
   color: string,
   imagen: string){
     this.id = id;
-    this.name = name;
+    this.marca = marca;
     this.linea = linea;
     this.referencia = referencia;
     this.modelo = modelo;

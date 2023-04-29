@@ -1,3 +1,42 @@
-<p>
-  vehiculo-list works!
-</p>
+
+<h3 style="font-weight:bold; margin-left: 30px;" >TuSegundazo.com</h3>
+
+<hr class="hr" />
+
+    <div class="title-image">
+      <img src="../../../assets/image 1.png">
+
+    </div>
+
+<hr class="hr" />
+<div class="row" style="margin-left: 15px;">
+  <div class="col-9">
+    <table class="table">
+      <thead class="table-dark">
+        <tr class="encabezado">
+          <th scope="col">#</th>
+          <th scope="col">Marca</th>
+          <th scope="col">Linea</th>
+          <th scope="col">Modelo</th>
+        </tr>
+      </thead>
+      <tbody *ngFor="let vehiculo of vehiculos">
+        <tr class="filavehiculos">
+          <th scope="row">{{vehiculo.id}}</th>
+          <td>{{vehiculo.marca}}</td>
+          <td>{{vehiculo.linea}}</td>
+          <td>{{vehiculo.modelo}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="data" *ngFor="let valor of totales">
+  <div>{{valor}}</div>
+</div >
+
+<div class="footer">
+  Contact us: +57 3102105253 - info@tusegundazo.com - @tusegundazo
+</div>
+

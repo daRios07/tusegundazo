@@ -1,0 +1,15 @@
+.title-image{
+display: block;
+  text-align: center;
+  margin-left: 15px;
+}
+
+.footer{
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.data{
+  margin-left: 30px;
+}
